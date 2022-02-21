@@ -22,11 +22,11 @@ variables:
   SN_AUTH_TEST: $(K8S_SECRET_SN_AUTH_TEST)
   SN_AUTH_PROD: $(K8S_SECRET_SN_AUTH_PROD)
   DOTENV_FILE: "$CI_PROJECT_DIR/build.env"
-  DEV_ENV: "instancename.service-now.com"
-  TEST_ENV: "instancename.service-now.com"
-  PROD_ENV: "instancename.service-now.com"
-  SYSID: "8d8c17561b631050fe0165f8bc4bcbde"
-  TESTSUITEID: "b1ae55eedb541410874fccd8139619fb"
+  DEV_ENV: "dev107103.service-now.com"
+  TEST_ENV: "dev92215.service-now.com"
+  # PROD_ENV: "instancename.service-now.com"
+  SYSID: "b018cfa11bfd011083b98623604bcbc6"
+  TESTSUITEID: "d4e923612f390110956c58492799b67c"
 
 image: servicenowdevx/sncicd-gitlab-docker:latest
 
